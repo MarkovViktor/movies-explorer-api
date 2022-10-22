@@ -8,7 +8,7 @@ const jwtSettings = {
 
 const cookieSettings = {
   httpOnly: true,
-  sameSite: false,
+  sameSite: 'none',
   secure: true,
   maxAge: 3600000 * 24 * 7,
 };
